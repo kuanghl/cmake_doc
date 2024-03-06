@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpycommon.a  CMakeFiles/pycommon.dir/common.c.o
-/usr/bin/ranlib libpycommon.a

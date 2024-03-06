@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -flto -shared  -o pyprint.cpython-38-x86_64-linux-gnu.so CMakeFiles/pyprint.dir/printf_fn.cpp.o  libpycommon.a /usr/lib/x86_64-linux-gnu/libpython3.8.so 
