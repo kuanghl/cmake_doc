@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="common_8h" kind="file" language="C++">
+    <compoundname>common.h</compoundname>
+    <includedby refid="common_8c" local="yes">/home/kuanghl/kuanghl/other/cmake_doc/src/common.c</includedby>
+    <includedby refid="printf__fn_8cpp" local="yes">/home/kuanghl/kuanghl/other/cmake_doc/src/printf_fn.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/kuanghl/kuanghl/other/cmake_doc/src/common.c</label>
+        <link refid="common_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="common_8h_1a777f35df8ecad88e8e8294bdccb8e703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int add_fn</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>add_fn</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>这个函数用于计算两个数的和 </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>第一个参数 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>第二个参数 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>返回两个数的和 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" line="24" column="5" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="17" bodyend="19" declfile="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a3fc0c0fb99d6f295ce49868e5f2556a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printf_color</definition>
+        <argsstring>(void)</argsstring>
+        <name>printf_color</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>一个简单的颜色打印函数 </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" line="30" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="21" bodyend="42" declfile="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a59fc53613c9c46f9384177cab1d4b579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* void_fn</definition>
+        <argsstring>(void *val, int set_val)</argsstring>
+        <name>void_fn</name>
+        <param>
+          <type>void *</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>set_val</declname>
+        </param>
+        <briefdescription>
+<para>Set a value to a pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>set_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transfer into value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address space will be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" line="38" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="79" bodyend="83" declfile="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8h_1a440523c1adb9853b5c04caa34c370ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* swap_str_maxlen</definition>
+        <argsstring>(char *a, char *b, unsigned int alen, unsigned int blen)</argsstring>
+        <name>swap_str_maxlen</name>
+        <param>
+          <type>char *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>alen</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>blen</declname>
+        </param>
+        <briefdescription>
+<para>Swap two string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>swap_u8_max() swap_u16_max() swap_u32_max </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first argument for a-string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second argument for b-string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the thrid argument for a-string len. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>blen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fourth argument for b-string len. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>return maxlen string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" line="49" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="44" bodyend="56" declfile="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h" declline="49" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a sample for pybind11, doxygen and sphinx. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>None <simplesect kind="author"><para>kuanghl </para>
+</simplesect>
+<simplesect kind="version"><para>v01.00.00 </para>
+</simplesect>
+<simplesect kind="date"><para>2023-03-06 </para>
+</simplesect>
+<simplesect kind="copyright"><para>MIT </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="11"><highlight class="preprocessor">#ifndef<sp/>__COMMON_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__COMMON_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a777f35df8ecad88e8e8294bdccb8e703" kindref="member">add_fn</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8h_1a3fc0c0fb99d6f295ce49868e5f2556a2" kindref="member">printf_color</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="common_8h_1a59fc53613c9c46f9384177cab1d4b579" kindref="member">void_fn</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*val,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>set_val);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="common_8h_1a440523c1adb9853b5c04caa34c370ebd" kindref="member">swap_str_maxlen</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>a,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alen,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blen);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>!__COMMON_H__</highlight></codeline>
+    </programlisting>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/common.h"/>
+  </compounddef>
+</doxygen>

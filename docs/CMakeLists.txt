@@ -1,0 +1,38 @@
+# 指定CMake编译最低要求版本
+cmake_minimum_required(VERSION 2.8...3.5)
+
+# 设置文档输入和输出路径
+set(DOXYGEN_INPUT_DIR ${PROJECT_SOURCE_DIR})
+set(DOXYGEN_OUTPUT_DIR ${CMAKE_CURRENT_BINARY_DIR})
+
+# doxygen
+find_package(Doxygen)
+if (DOXYGEN_FOUND)
+    # set input and output files
+    set(DOXYGEN_IN ${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile.in)
+    set(DOXYGEN_OUT ${CMAKE_CURRENT_BINARY_DIR}/Doxyfile)
+
+    # request to configure the file
+    configure_file(${DOXYGEN_IN} ${DOXYGEN_OUT} @ONLY)
+
+    add_custom_command(OUTPUT "html/index.html"
+                   COMMAND "${DOXYGEN_EXECUTABLE}"
+                   WORKING_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}"
+                   MAIN_DEPENDENCY Doxyfile
+                #    DEPENDS ${header_paths} ${source_files} ${extra_files}
+                   COMMENT "Generating HTML documentation"
+                   VERBATIM)
+
+    # 在make -j16或者其他make指令时doxygen生成文档生效
+    add_custom_target(docs ALL SOURCES "html/index.html")
+
+    # install html/latex/xml
+    install(DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/html"
+                DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
+    install(DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/latex"
+                DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
+    install(DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/xml"
+                DESTINATION "${CMAKE_INSTALL_PREFIX}/docs")
+else()
+    message(FATAL_ERROR "Doxygen need to be installed to generate the doxygen documentation")
+endif()

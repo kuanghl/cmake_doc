@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structuval__s_1_1u__s" kind="struct" language="C++" prot="public">
+    <compoundname>uval_s::u_s</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1af24553b31d4b6305e5e25bcb0c286a37" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit0</definition>
+        <argsstring></argsstring>
+        <name>bit0</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="136" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a3d1eb6b904ae84e0a073352c4b7e3c38" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit1</definition>
+        <argsstring></argsstring>
+        <name>bit1</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="137" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a112a2abf79eadf972f265cfc58f2509d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit2</definition>
+        <argsstring></argsstring>
+        <name>bit2</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="138" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1afb0e1f09724d41988a4a7bd59dc9cedf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit3</definition>
+        <argsstring></argsstring>
+        <name>bit3</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="139" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1ab564070567e4940b1f2c13f282be732e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit4</definition>
+        <argsstring></argsstring>
+        <name>bit4</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="140" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a73a7548c68f874ab6717d875bdb68d09" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit5</definition>
+        <argsstring></argsstring>
+        <name>bit5</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="141" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1afef86a10555d5fa433ff0d7fba427d72" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit6</definition>
+        <argsstring></argsstring>
+        <name>bit6</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="142" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a2770f584a33c519b276b4667c68ab0ae" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::bit7</definition>
+        <argsstring></argsstring>
+        <name>bit7</name>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="143" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1aaf676e351ffaca083017f8b529609590" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::val0</definition>
+        <argsstring></argsstring>
+        <name>val0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="144" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a052bc09a4d2c46e924e0aaf90da1f2bf" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t uval_s::u_s::val1</definition>
+        <argsstring></argsstring>
+        <name>val1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="145" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a024b4156912f6647846718f77c7f90bd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t uval_s::u_s::val2</definition>
+        <argsstring></argsstring>
+        <name>val2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="146" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1a5a4fcba3da961f891bcfdd8e5fff240d" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t uval_s::u_s::val3</definition>
+        <argsstring></argsstring>
+        <name>val3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="147" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1aaf3d84ae8399e00e82e7d5763383c7a9" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::val4</definition>
+        <argsstring></argsstring>
+        <name>val4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="148" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1u__s_1affcc9e1dd3f8c680b77843163b3a0c2f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t uval_s::u_s::val5</definition>
+        <argsstring></argsstring>
+        <name>val5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="149" column="17" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>there is a structure for pybind11 test </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="135" column="1" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="134" bodyend="150"/>
+    <listofallmembers>
+      <member refid="structuval__s_1_1u__s_1af24553b31d4b6305e5e25bcb0c286a37" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit0</name></member>
+      <member refid="structuval__s_1_1u__s_1a3d1eb6b904ae84e0a073352c4b7e3c38" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit1</name></member>
+      <member refid="structuval__s_1_1u__s_1a112a2abf79eadf972f265cfc58f2509d" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit2</name></member>
+      <member refid="structuval__s_1_1u__s_1afb0e1f09724d41988a4a7bd59dc9cedf" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit3</name></member>
+      <member refid="structuval__s_1_1u__s_1ab564070567e4940b1f2c13f282be732e" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit4</name></member>
+      <member refid="structuval__s_1_1u__s_1a73a7548c68f874ab6717d875bdb68d09" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit5</name></member>
+      <member refid="structuval__s_1_1u__s_1afef86a10555d5fa433ff0d7fba427d72" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit6</name></member>
+      <member refid="structuval__s_1_1u__s_1a2770f584a33c519b276b4667c68ab0ae" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>bit7</name></member>
+      <member refid="structuval__s_1_1u__s_1aaf676e351ffaca083017f8b529609590" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val0</name></member>
+      <member refid="structuval__s_1_1u__s_1a052bc09a4d2c46e924e0aaf90da1f2bf" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val1</name></member>
+      <member refid="structuval__s_1_1u__s_1a024b4156912f6647846718f77c7f90bd" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val2</name></member>
+      <member refid="structuval__s_1_1u__s_1a5a4fcba3da961f891bcfdd8e5fff240d" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val3</name></member>
+      <member refid="structuval__s_1_1u__s_1aaf3d84ae8399e00e82e7d5763383c7a9" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val4</name></member>
+      <member refid="structuval__s_1_1u__s_1affcc9e1dd3f8c680b77843163b3a0c2f" prot="public" virt="non-virtual"><scope>uval_s::u_s</scope><name>val5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

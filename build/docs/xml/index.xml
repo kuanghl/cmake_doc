@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="structcval__s" kind="struct"><name>cval_s</name>
+    <member refid="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" kind="variable"><name>val0</name></member>
+    <member refid="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" kind="variable"><name>val1</name></member>
+    <member refid="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" kind="variable"><name>val2</name></member>
+    <member refid="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" kind="variable"><name>val3</name></member>
+    <member refid="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" kind="variable"><name>str0</name></member>
+    <member refid="structcval__s_1a4096d8dee583fde14d91ff88054917f7" kind="variable"><name>str1</name></member>
+  </compound>
+  <compound refid="structuval__s_1_1p__s" kind="struct"><name>uval_s::p_s</name>
+    <member refid="structuval__s_1_1p__s_1ae4a4e30df3c68f5ee11917ef99201620" kind="variable"><name>size</name></member>
+    <member refid="structuval__s_1_1p__s_1a408f5b5c8d02f46c6139629371202a11" kind="variable"><name>blen</name></member>
+    <member refid="structuval__s_1_1p__s_1af00b0544d1f8898e9c503cbb25ef65ea" kind="variable"><name>count</name></member>
+    <member refid="structuval__s_1_1p__s_1a8a36faf97ee0beffae91c820dc952cf0" kind="variable"><name>valp</name></member>
+  </compound>
+  <compound refid="structuval__s_1_1u__s" kind="struct"><name>uval_s::u_s</name>
+    <member refid="structuval__s_1_1u__s_1af24553b31d4b6305e5e25bcb0c286a37" kind="variable"><name>bit0</name></member>
+    <member refid="structuval__s_1_1u__s_1a3d1eb6b904ae84e0a073352c4b7e3c38" kind="variable"><name>bit1</name></member>
+    <member refid="structuval__s_1_1u__s_1a112a2abf79eadf972f265cfc58f2509d" kind="variable"><name>bit2</name></member>
+    <member refid="structuval__s_1_1u__s_1afb0e1f09724d41988a4a7bd59dc9cedf" kind="variable"><name>bit3</name></member>
+    <member refid="structuval__s_1_1u__s_1ab564070567e4940b1f2c13f282be732e" kind="variable"><name>bit4</name></member>
+    <member refid="structuval__s_1_1u__s_1a73a7548c68f874ab6717d875bdb68d09" kind="variable"><name>bit5</name></member>
+    <member refid="structuval__s_1_1u__s_1afef86a10555d5fa433ff0d7fba427d72" kind="variable"><name>bit6</name></member>
+    <member refid="structuval__s_1_1u__s_1a2770f584a33c519b276b4667c68ab0ae" kind="variable"><name>bit7</name></member>
+    <member refid="structuval__s_1_1u__s_1aaf676e351ffaca083017f8b529609590" kind="variable"><name>val0</name></member>
+    <member refid="structuval__s_1_1u__s_1a052bc09a4d2c46e924e0aaf90da1f2bf" kind="variable"><name>val1</name></member>
+    <member refid="structuval__s_1_1u__s_1a024b4156912f6647846718f77c7f90bd" kind="variable"><name>val2</name></member>
+    <member refid="structuval__s_1_1u__s_1a5a4fcba3da961f891bcfdd8e5fff240d" kind="variable"><name>val3</name></member>
+    <member refid="structuval__s_1_1u__s_1aaf3d84ae8399e00e82e7d5763383c7a9" kind="variable"><name>val4</name></member>
+    <member refid="structuval__s_1_1u__s_1affcc9e1dd3f8c680b77843163b3a0c2f" kind="variable"><name>val5</name></member>
+  </compound>
+  <compound refid="unionuval__s" kind="union"><name>uval_s</name>
+    <member refid="unionuval__s_1abbf9008d0abb82858eced3ef4ee543f6" kind="variable"><name>u_t</name></member>
+    <member refid="unionuval__s_1a62d9240df6ed6e97ef076ffe868c9d1d" kind="variable"><name>p_t</name></member>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="common_8h" kind="file"><name>common.h</name>
+    <member refid="common_8h_1a777f35df8ecad88e8e8294bdccb8e703" kind="function"><name>add_fn</name></member>
+    <member refid="common_8h_1a3fc0c0fb99d6f295ce49868e5f2556a2" kind="function"><name>printf_color</name></member>
+    <member refid="common_8h_1a59fc53613c9c46f9384177cab1d4b579" kind="function"><name>void_fn</name></member>
+    <member refid="common_8h_1a440523c1adb9853b5c04caa34c370ebd" kind="function"><name>swap_str_maxlen</name></member>
+  </compound>
+  <compound refid="CMakeLists_8txt" kind="file"><name>CMakeLists.txt</name>
+    <member refid="CMakeLists_8txt_1aac28493449a247a62dce5927ab4655ce" kind="function"><name>cmake_minimum_required</name></member>
+    <member refid="CMakeLists_8txt_1a48d7aa5fe7ad8b49c91cd003de4f71b7" kind="function"><name>add_library</name></member>
+  </compound>
+  <compound refid="common_8c" kind="file"><name>common.c</name>
+    <member refid="common_8c_1aec4e3d8300e97a9b24faf1638f07e93a" kind="variable"><name>cval_t</name></member>
+    <member refid="common_8c_1aa0fb00b1ea40cb88fec72e98aa1d652e" kind="variable"><name>uval_t</name></member>
+    <member refid="common_8c_1a777f35df8ecad88e8e8294bdccb8e703" kind="function"><name>add_fn</name></member>
+    <member refid="common_8c_1a3fc0c0fb99d6f295ce49868e5f2556a2" kind="function"><name>printf_color</name></member>
+    <member refid="common_8c_1a440523c1adb9853b5c04caa34c370ebd" kind="function"><name>swap_str_maxlen</name></member>
+    <member refid="common_8c_1a39546a405a03b1daf1579bd45964949f" kind="function"><name>swap_u8_max</name></member>
+    <member refid="common_8c_1adfe3533fc669cdb939b4dc1c08b37c3c" kind="function"><name>swap_u16_max</name></member>
+    <member refid="common_8c_1a7ca382d66419e463395dfc1ff750fa51" kind="function"><name>swap_u32_max</name></member>
+    <member refid="common_8c_1a59fc53613c9c46f9384177cab1d4b579" kind="function"><name>void_fn</name></member>
+    <member refid="common_8c_1adf42a3ee82b53d4127411e12613312d6" kind="function"><name>struct_fn</name></member>
+    <member refid="common_8c_1a9c18acacbbcdae6a97a7e743e282daba" kind="function"><name>union_fn</name></member>
+  </compound>
+  <compound refid="printf__fn_8cpp" kind="file"><name>printf_fn.cpp</name>
+    <member refid="printf__fn_8cpp_1a54f4729fec01f58170e6a3191dd0aecf" kind="function"><name>PYBIND11_MODULE</name></member>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>/home/kuanghl/kuanghl/other/cmake_doc/docs</name>
+  </compound>
+  <compound refid="dir_bfccd401955b95cf8c75461437045ac0" kind="dir"><name>/home/kuanghl/kuanghl/other/cmake_doc/inc</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/kuanghl/kuanghl/other/cmake_doc/src</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

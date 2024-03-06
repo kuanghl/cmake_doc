@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structuval__s_1_1p__s" kind="struct" language="C++" prot="public">
+    <compoundname>uval_s::p_s</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structuval__s_1_1p__s_1ae4a4e30df3c68f5ee11917ef99201620" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t uval_s::p_s::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="158" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1p__s_1a408f5b5c8d02f46c6139629371202a11" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t uval_s::p_s::blen</definition>
+        <argsstring></argsstring>
+        <name>blen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="159" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1p__s_1af00b0544d1f8898e9c503cbb25ef65ea" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t uval_s::p_s::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="160" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structuval__s_1_1p__s_1a8a36faf97ee0beffae91c820dc952cf0" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t uval_s::p_s::valp</definition>
+        <argsstring></argsstring>
+        <name>valp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="161" column="18" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>there is a structure for pybind11 test </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="157" column="1" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="156" bodyend="162"/>
+    <listofallmembers>
+      <member refid="structuval__s_1_1p__s_1a408f5b5c8d02f46c6139629371202a11" prot="public" virt="non-virtual"><scope>uval_s::p_s</scope><name>blen</name></member>
+      <member refid="structuval__s_1_1p__s_1af00b0544d1f8898e9c503cbb25ef65ea" prot="public" virt="non-virtual"><scope>uval_s::p_s</scope><name>count</name></member>
+      <member refid="structuval__s_1_1p__s_1ae4a4e30df3c68f5ee11917ef99201620" prot="public" virt="non-virtual"><scope>uval_s::p_s</scope><name>size</name></member>
+      <member refid="structuval__s_1_1p__s_1a8a36faf97ee0beffae91c820dc952cf0" prot="public" virt="non-virtual"><scope>uval_s::p_s</scope><name>valp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

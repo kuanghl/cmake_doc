@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structcval__s" kind="struct" language="C++" prot="public">
+    <compoundname>cval_s</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t cval_s::val0</definition>
+        <argsstring></argsstring>
+        <name>val0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量val0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="93" column="13" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t cval_s::val1</definition>
+        <argsstring></argsstring>
+        <name>val1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量val0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="94" column="14" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cval_s::val2</definition>
+        <argsstring></argsstring>
+        <name>val2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量val0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="95" column="14" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t cval_s::val3</definition>
+        <argsstring></argsstring>
+        <name>val3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量val0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="96" column="14" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* cval_s::str0</definition>
+        <argsstring></argsstring>
+        <name>str0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量str0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="97" column="10" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcval__s_1a4096d8dee583fde14d91ff88054917f7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char cval_s::str1[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>str1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>定义一个整型变量str1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="98" column="10" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>there is a structure for pybind11 test </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="91" column="1" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="90" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" prot="public" virt="non-virtual"><scope>cval_s</scope><name>str0</name></member>
+      <member refid="structcval__s_1a4096d8dee583fde14d91ff88054917f7" prot="public" virt="non-virtual"><scope>cval_s</scope><name>str1</name></member>
+      <member refid="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" prot="public" virt="non-virtual"><scope>cval_s</scope><name>val0</name></member>
+      <member refid="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" prot="public" virt="non-virtual"><scope>cval_s</scope><name>val1</name></member>
+      <member refid="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" prot="public" virt="non-virtual"><scope>cval_s</scope><name>val2</name></member>
+      <member refid="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" prot="public" virt="non-virtual"><scope>cval_s</scope><name>val3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

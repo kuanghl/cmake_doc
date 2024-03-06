@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="common_8c" kind="file" language="C++">
+    <compoundname>common.c</compoundname>
+    <includes refid="common_8h" local="yes">common.h</includes>
+    <includes local="yes">stdint.h</includes>
+    <includes local="yes">stdlib.h</includes>
+    <includes local="yes">string.h</includes>
+    <includes local="yes">stdio.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>common.h</label>
+        <link refid="common_8h"/>
+      </node>
+      <node id="1">
+        <label>/home/kuanghl/kuanghl/other/cmake_doc/src/common.c</label>
+        <link refid="common_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+      <node id="6">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structcval__s" prot="public">cval_s</innerclass>
+    <innerclass refid="unionuval__s" prot="public">uval_s</innerclass>
+    <innerclass refid="structuval__s_1_1u__s" prot="public">uval_s::u_s</innerclass>
+    <innerclass refid="structuval__s_1_1p__s" prot="public">uval_s::p_s</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="common_8c_1aec4e3d8300e97a9b24faf1638f07e93a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structcval__s" kindref="compound">cval_s</ref></type>
+        <definition>struct cval_s cval_t</definition>
+        <argsstring></argsstring>
+        <name>cval_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="99" column="7"/>
+      </memberdef>
+      <memberdef kind="variable" id="common_8c_1aa0fb00b1ea40cb88fec72e98aa1d652e" prot="public" static="no" mutable="no">
+        <type>union <ref refid="unionuval__s" kindref="compound">uval_s</ref></type>
+        <definition>union uval_s uval_t</definition>
+        <argsstring></argsstring>
+        <name>uval_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="163" column="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="common_8c_1a777f35df8ecad88e8e8294bdccb8e703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int add_fn</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>add_fn</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>这个函数用于计算两个数的和 </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>第一个参数 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>第二个参数 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>返回两个数的和 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="17" column="5" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a3fc0c0fb99d6f295ce49868e5f2556a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printf_color</definition>
+        <argsstring>(void)</argsstring>
+        <name>printf_color</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>一个简单的颜色打印函数 </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="21" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="21" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a440523c1adb9853b5c04caa34c370ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* swap_str_maxlen</definition>
+        <argsstring>(char *a, char *b, unsigned int alen, unsigned int blen)</argsstring>
+        <name>swap_str_maxlen</name>
+        <param>
+          <type>char *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>alen</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>blen</declname>
+        </param>
+        <briefdescription>
+<para>Swap two string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>swap_u8_max() swap_u16_max() swap_u32_max </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first argument for a-string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second argument for b-string. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>alen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the thrid argument for a-string len. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>blen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the fourth argument for b-string len. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>return maxlen string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="44" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="44" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a39546a405a03b1daf1579bd45964949f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t* swap_u8_max</definition>
+        <argsstring>(uint8_t *a, uint8_t *b)</argsstring>
+        <name>swap_u8_max</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="58" column="9" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1adfe3533fc669cdb939b4dc1c08b37c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t *</type>
+        <definition>uint16_t* swap_u16_max</definition>
+        <argsstring>(uint16_t *a, uint16_t *b)</argsstring>
+        <name>swap_u16_max</name>
+        <param>
+          <type>uint16_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="65" column="10" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a7ca382d66419e463395dfc1ff750fa51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t *</type>
+        <definition>uint32_t* swap_u32_max</definition>
+        <argsstring>(uint32_t *a, uint32_t *b)</argsstring>
+        <name>swap_u32_max</name>
+        <param>
+          <type>uint32_t *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="72" column="10" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a59fc53613c9c46f9384177cab1d4b579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* void_fn</definition>
+        <argsstring>(void *val, int set_val)</argsstring>
+        <name>void_fn</name>
+        <param>
+          <type>void *</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>set_val</declname>
+        </param>
+        <briefdescription>
+<para>Set a value to a pointer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer address </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>set_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transfer into value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>pointer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>address space will be set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="79" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1adf42a3ee82b53d4127411e12613312d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* struct_fn</definition>
+        <argsstring>(struct cval_s *cval, uint8_t val0, uint16_t val1, uint32_t val2, uint64_t val3, const char *str0)</argsstring>
+        <name>struct_fn</name>
+        <param>
+          <type>struct <ref refid="structcval__s" kindref="compound">cval_s</ref> *</type>
+          <declname>cval</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>val0</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>val1</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>val2</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>val3</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="102" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="102" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="common_8c_1a9c18acacbbcdae6a97a7e743e282daba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* union_fn</definition>
+        <argsstring>(void)</argsstring>
+        <name>union_fn</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" line="166" column="6" bodyfile="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c" bodystart="166" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a sample for pybind11, doxygen and sphinx. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>None <simplesect kind="author"><para>kuanghl </para>
+</simplesect>
+<simplesect kind="version"><para>v01.00.00 </para>
+</simplesect>
+<simplesect kind="date"><para>2023-03-06 </para>
+</simplesect>
+<simplesect kind="copyright"><para>MIT </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="11"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="common_8h" kindref="compound">common.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdlib.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;stdio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="common_8c_1a777f35df8ecad88e8e8294bdccb8e703" kindref="member">add_fn</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>+<sp/>b;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="common_8c_1a3fc0c0fb99d6f295ce49868e5f2556a2" kindref="member">printf_color</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>\0<sp/>33<sp/>OCT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;31mThis<sp/>text<sp/>is<sp/>red.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;32mThis<sp/>text<sp/>is<sp/>green.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;33mThis<sp/>text<sp/>is<sp/>yellow.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;34mThis<sp/>text<sp/>is<sp/>blue.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;35mThis<sp/>text<sp/>is<sp/>magenta.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;36mThis<sp/>text<sp/>is<sp/>cyan.\033[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\033[1;37;44mThis<sp/>text<sp/>is<sp/>white.\033[m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;This<sp/>text<sp/>is<sp/>default.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>\x<sp/>1b<sp/>HEX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;31mThis<sp/>text<sp/>is<sp/>red.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;32mThis<sp/>text<sp/>is<sp/>green.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;33mThis<sp/>text<sp/>is<sp/>yellow.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;34mThis<sp/>text<sp/>is<sp/>blue.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;35mThis<sp/>text<sp/>is<sp/>magenta.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;36mThis<sp/>text<sp/>is<sp/>cyan.\x1b[0m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\x1b[1;37;44mThis<sp/>text<sp/>is<sp/>white.\x1b[m\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;This<sp/>text<sp/>is<sp/>default.\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="common_8c_1a440523c1adb9853b5c04caa34c370ebd" kindref="member">swap_str_maxlen</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>a,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>b,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alen,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>blen)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*temp<sp/>=<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)calloc(1,<sp/>(alen<sp/>&gt;=<sp/>blen<sp/>?<sp/>alen<sp/>:<sp/>blen));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(temp,<sp/>a,<sp/>alen);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(a,<sp/>b,<sp/>(alen<sp/>&gt;=<sp/>blen<sp/>?<sp/>blen<sp/>:<sp/>alen));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(b,<sp/>temp,<sp/>(alen<sp/>&gt;=<sp/>blen<sp/>?<sp/>blen<sp/>:<sp/>alen));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(alen<sp/>&gt;=<sp/>blen){</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">uint8_t<sp/>*swap_u8_max(uint8_t*<sp/>a,<sp/>uint8_t*<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>temp<sp/>=<sp/>*a;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>*a<sp/>=<sp/>*b;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>*b<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*a<sp/>&gt;=<sp/>*b<sp/>?<sp/>a<sp/>:<sp/>b);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">uint16_t<sp/>*swap_u16_max(uint16_t*<sp/>a,<sp/>uint16_t*<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>temp<sp/>=<sp/>*a;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>*a<sp/>=<sp/>*b;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>*b<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*a<sp/>&gt;=<sp/>*b<sp/>?<sp/>a<sp/>:<sp/>b);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">uint32_t<sp/>*swap_u32_max(uint32_t*<sp/>a,<sp/>uint32_t*<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>temp<sp/>=<sp/>*a;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>*a<sp/>=<sp/>*b;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>*b<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*a<sp/>&gt;=<sp/>*b<sp/>?<sp/>a<sp/>:<sp/>b);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="common_8c_1a59fc53613c9c46f9384177cab1d4b579" kindref="member">void_fn</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*val,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>set_val)<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;val<sp/>=<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>*((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*)val));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>*((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*)val)<sp/>=<sp/>set_val;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>val;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="structcval__s" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcval__s" kindref="compound">cval_s</ref></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>data<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" kindref="member">val0</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" kindref="member">val1</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" kindref="member">val2</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" kindref="member">val3</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" kindref="member">str0</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structcval__s_1a4096d8dee583fde14d91ff88054917f7" kindref="member">str1</ref>[256];<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}cval_t;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*struct_fn(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structcval__s" kindref="compound">cval_s</ref><sp/>*cval,<sp/>uint8_t<sp/>val0,<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>val1,<sp/>uint32_t<sp/>val2,<sp/>uint64_t<sp/>val3,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str0)<sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str1<sp/>=<sp/>cval-&gt;<ref refid="structcval__s_1a4096d8dee583fde14d91ff88054917f7" kindref="member">str1</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>str1<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Hello<sp/>world\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;val0<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" kindref="member">val0</ref>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;val1<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" kindref="member">val1</ref>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;val2<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" kindref="member">val2</ref>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;val3<sp/>%lld\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" kindref="member">val3</ref>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;str0<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" kindref="member">str0</ref>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;str1<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>cval-&gt;<ref refid="structcval__s_1a4096d8dee583fde14d91ff88054917f7" kindref="member">str1</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>cval-&gt;<ref refid="structcval__s_1a3ba244cf2630f1066d3a712c8b9f2e43" kindref="member">val0</ref><sp/>=<sp/>val0;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>cval-&gt;<ref refid="structcval__s_1a055999aafcb87ef3a47eeb3f08943fd2" kindref="member">val1</ref><sp/>=<sp/>val1;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>cval-&gt;<ref refid="structcval__s_1ab1ed9292d0dfc92ab9de3be06587acf0" kindref="member">val2</ref><sp/>=<sp/>val2;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cval-&gt;<ref refid="structcval__s_1a5f914976aeed12e6bcc1ddc7f11a5df1" kindref="member">val3</ref><sp/>=<sp/>val3;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>cval-&gt;<ref refid="structcval__s_1a9a0c365e103c4099a2b923a101f037c1" kindref="member">str0</ref><sp/>=<sp/>str0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cval;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="unionuval__s" refkind="compound"><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="unionuval__s" kindref="compound">uval_s</ref></highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134" refid="structuval__s_1_1u__s" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structuval__s_1_1u__s" kindref="compound">u_s</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit0<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit1<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit2<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit3<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit4<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit5<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit6<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>bit7<sp/>:<sp/>1;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>val0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>2bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>val1;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>4bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>val2;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>8bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>val3;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>16bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>val4;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>24bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>val5;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>24bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>}u_t;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="structuval__s_1_1p__s" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structuval__s_1_1p__s" kindref="compound">p_s</ref></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>size;<sp/><sp/></highlight><highlight class="comment">//<sp/>8bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>blen;<sp/><sp/></highlight><highlight class="comment">//<sp/>16bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>count;<sp/></highlight><highlight class="comment">//<sp/>16bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>valp;<sp/><sp/></highlight><highlight class="comment">//<sp/>24bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>}p_t;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">}uval_t;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*union_fn(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uval_t);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/src/common.c"/>
+  </compounddef>
+</doxygen>

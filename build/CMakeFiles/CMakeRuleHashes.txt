@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8ec1740be3ce8c3fada6aafaa5d8294e docs/html/index.html

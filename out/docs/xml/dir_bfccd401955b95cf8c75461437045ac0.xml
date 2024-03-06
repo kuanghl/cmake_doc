@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_bfccd401955b95cf8c75461437045ac0" kind="dir">
+    <compoundname>/home/kuanghl/kuanghl/other/cmake_doc/inc</compoundname>
+    <innerfile refid="common_8h">common.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/kuanghl/kuanghl/other/cmake_doc/inc/"/>
+  </compounddef>
+</doxygen>
