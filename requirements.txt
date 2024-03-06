@@ -1,5 +1,6 @@
 # python 3.8.10
-Sphinx 
-breathe
+breathe==4.34.0
+sphinx==5.0.2
+
 sphinx_rtd_theme
 sphinx-sitemap
