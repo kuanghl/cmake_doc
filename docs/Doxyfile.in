@@ -116,9 +116,9 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = @DOXYGEN_INPUT_DIR@/src \
-                         @DOXYGEN_INPUT_DIR@/inc \
-                         @DOXYGEN_INPUT_DIR@/docs/README.md
+INPUT                  = @DOXYGEN_CURRENT_DIR@/../src \
+                         @DOXYGEN_CURRENT_DIR@/../inc \
+                         @DOXYGEN_CURRENT_DIR@/README.md
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c \
                          *.cc \
@@ -208,11 +208,11 @@ IGNORE_PREFIX          =
 GENERATE_HTML          = YES
 HTML_OUTPUT            = html
 HTML_FILE_EXTENSION    = .html
-HTML_HEADER            = @DOXYGEN_INPUT_DIR@/docs/theme/html_header.html
-HTML_FOOTER            = @DOXYGEN_INPUT_DIR@/docs/theme/html_footer.html
+HTML_HEADER            = @DOXYGEN_CURRENT_DIR@/theme/html_header.html
+HTML_FOOTER            = @DOXYGEN_CURRENT_DIR@/theme/html_footer.html
 HTML_STYLESHEET        =
-HTML_EXTRA_STYLESHEET  = @DOXYGEN_INPUT_DIR@/docs/theme/custom.css \
-                         @DOXYGEN_INPUT_DIR@/docs/theme/custom_dark_theme.css
+HTML_EXTRA_STYLESHEET  = @DOXYGEN_CURRENT_DIR@/theme/custom.css \
+                         @DOXYGEN_CURRENT_DIR@/theme/custom_dark_theme.css
 HTML_EXTRA_FILES       =
 HTML_COLORSTYLE_HUE    = 220
 HTML_COLORSTYLE_SAT    = 100
